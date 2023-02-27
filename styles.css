@@ -1,2 +1,35 @@
 
 /* Your CSS Code here. */
+/* create a grid container with 2 rows and 2 columns */
+.holder {
+  display: grid;
+  grid-template-columns: repeat(2, 100px); /* create 2 columns with a width of 100px each */
+  grid-template-rows: repeat(2, 100px); /* create 2 rows with a height of 100px each */
+  grid-gap: 10px; /* add a 10px gap between grid items */
+}
+
+/* style the grid items */
+.item-1{
+  background-color: #ddd;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+.item-2{
+  background-color: #ddd;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+.item-3{
+  background-color: #ddd;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+.item-4{
+  background-color: #ddd;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
